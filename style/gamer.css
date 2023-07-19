@@ -213,6 +213,7 @@
 
  /* banner style start */
  .Banner-container {
+    margin-top: 50px;
      display: flex;
      align-items: center;
      /* text-align: center; */
@@ -305,6 +306,7 @@
 
 
  footer {
+    margin-top: 50px;
      background-color: #0B0223;
      width: 100%;
      display: flex;
@@ -377,9 +379,26 @@
 
  /* bonus design */
   
-  /* .card-img-container img:hover {
-    opacity : 0.8;
-    border: 5px solid #F948B2;
-    border-radius: 10px;
-    background-image: url('../images/play.png');
+
+  /* .card-img{
+    position: relative;
+    display: inline-block;
+  }
+
+  .card-img:hover img{
+    filter:brightness(0.8)
+  }
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/play.jpg'); 
+    background-size: cover;
+  }
+  .card-img:hover .play-icon {
+    display: block; 
   } */
