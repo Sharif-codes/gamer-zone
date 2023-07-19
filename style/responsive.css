@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
     /* nav responsive start here */
     nav, .menu-container{
         flex-direction: column;
@@ -25,10 +25,29 @@
     .banner-img{
         width: 100%;
     }
- @media screen and (max-width: 960px) {
-    /* nav responsive start here */
 
-    nav, .menu-container,     .card-img-container{
+
+    .btn-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+        padding: 0;
+    }
+    .btn{
+        font-size: 0.42rem;
+        width: none;
+    }
+    
+
+   
+}
+
+ @media screen and (max-width: 768px) {
+    /* nav responsive start here */
+    nav, .menu-container{
+        flex-direction: column;
+    }
+    .card-img-container{
         flex-direction: column;
     }
     .menu-container {
@@ -41,4 +60,14 @@
         margin-top: 20px;
     }
     /* nav responsive end here */
- }
+    .Banner-container{
+        flex-direction: column;
+    }
+    .btn-container{
+        margin: 0 50px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+
+}
