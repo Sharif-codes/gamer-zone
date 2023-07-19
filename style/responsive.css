@@ -37,6 +37,9 @@
         font-size: 0.42rem;
         width: none;
     }
+    .btn-side{
+        margin: 0;
+    }
     
 
    
@@ -68,6 +71,9 @@
     }
     footer{
         margin-top: 50px;
+    }
+    .btn-side{
+        margin: 0;
     }
 
 }
