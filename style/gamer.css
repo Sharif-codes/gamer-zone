@@ -214,7 +214,7 @@
 
  /* banner style start */
  .Banner-container {
-    margin-top: 50px;
+     margin-top: 50px;
      display: flex;
      align-items: center;
      /* text-align: center; */
@@ -296,7 +296,7 @@
      font-weight: 600;
 
  }
- 
+
 
  .btn>img {
      width: 20px;
@@ -308,13 +308,13 @@
      color: #FF42A5;
  }
 
- .btn-side{
-    margin-left: 30px;
+ .btn-side {
+     margin-left: 30px;
  }
 
 
  footer {
-    margin-top: 50px;
+     margin-top: 50px;
      background-color: #0B0223;
      width: 100%;
      display: flex;
@@ -385,28 +385,43 @@
  }
 
 
- /* bonus design */
-  
+ 
+ .card-img {
+     position: relative;
+     max-width: 300px;
 
-  /* .card-img{
-    position: relative;
-    display: inline-block;
+ }
+ .card-img> img{
+    width: 100%;
+  height: auto;
+ }
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid #F948B2 ;
+    border-radius: 10px;
+    right: 0;
+    height: 80%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:grey;
   }
-
-  .card-img:hover img{
-    filter:brightness(0.8)
+  .card-img:hover .overlay {
+    opacity: .8;
   }
-  .play-icon {
+  .icon {
+    color: white;
+    font-size: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none; 
-    width: 60px;
-    height: 60px;
-    background-image: url('../images/play.jpg'); 
-    background-size: cover;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
   }
-  .card-img:hover .play-icon {
-    display: block; 
-  } */
+  .fa-user:hover {
+    color: #eee;
+  }
