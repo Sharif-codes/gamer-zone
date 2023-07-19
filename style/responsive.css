@@ -12,16 +12,19 @@
     }
     /* nav responsive end here */
 
-    .goat-container{
+    .goat-container, .Banner-container{
         flex-direction: column-reverse;
     }
 
     .card-img-container{
         flex-direction: column;
     }
-
-    
- }
+    .banner-des{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
  @media screen and (max-width: 960px) {
     /* nav responsive start here */
 
