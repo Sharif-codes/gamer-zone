@@ -68,8 +68,10 @@
  /* nav style end */
 
  .goat-container {
+     margin-top: 50px;
      display: flex;
-     align-items: center;
+     /* align-content: center; */
+     text-align: center;
 
  }
 
@@ -77,17 +79,20 @@
      position: absolute;
      width: 100%;
      display: block;
-     
+
  }
 
  .goat-des {
-    text-align: center;
+     align-content: center;
      position: relative;
      width: 50%;
+
  }
 
  .goat-img-container {
+
      width: 50%;
+     align-content: center;
 
  }
 
@@ -95,6 +100,7 @@
      width: 80%;
      /* display: block; */
      /* margin: 0 auto; */
+
  }
 
  .goat-des>h3 {
@@ -103,35 +109,96 @@
      font-style: normal;
      margin-bottom: 0px;
  }
- 
+
 
  .goat-title {
      font-size: 4rem;
      font-style: normal;
+     font-weight: bolder;
      margin-top: 0;
      margin-bottom: 0;
+
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
  }
 
  .goat-para {
      color: #534C64;
      font-size: 1rem;
      font-style: normal;
+     display: block;
      margin-top: 0;
      margin-bottom: 0;
  }
 
  .sign-btn {
-    margin-top: 0;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: #FF42A5;
+     margin-top: 0;
+     color: white;
+     padding: 10px;
+     border: none;
+     border-radius: 20px;
+     background-color: #FF42A5;
  }
- .go-btn{
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: #4EC5F7;
+
+ .go-btn {
+     color: white;
+     padding: 10px;
+     border: none;
+     border-radius: 20px;
+     background-color: #4EC5F7;
  }
+
+ /* goat style end */
+
+
+ /* card style start */
+
+ .card-title {
+     margin-top: 100px;
+     color: #0B0223;
+     text-align: right;
+     font-size: 2rem;
+     font-style: normal;
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 0;
+ }
+
+ .funny-videos {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .card-des {
+     color: #534C64;
+     font-size: .8rem;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .card-img-container {
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     align-items: center;
+
+ }
+
+ .card-img {
+     width: 300px;
+     align-items: center;
+ }
+
+ .card-para {
+     color: #534C64;
+     font-size: 1.2rem;
+     font-style: normal;
+ }
+
+ /* card style end */
