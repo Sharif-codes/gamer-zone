@@ -39,6 +39,12 @@
     .banner-img{
         width: 100%;
     }
+    .front-pic {
+        width: 40%;
+        position: relative;
+        bottom: 155px;
+    }
+
     .footer-menu-container{
         gap: 13px;
         margin-bottom: 13px;
@@ -55,6 +61,7 @@
 
 
     .btn-container{
+        gap: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /* margin: 0; */
@@ -64,8 +71,8 @@
         font-size: 0.42rem;
         width: none;
     }
-    .btn-side{
-        margin: 0;
+    .btn > img{
+        width: 20px;
     }
     
 
@@ -98,12 +105,10 @@
     }
     .btn-container{
         margin: 0 50px;
+        gap: 30px;
     }
     footer{
         margin-top: 50px;
-    }
-    .btn-side{
-        margin: 0;
     }
 
 }
